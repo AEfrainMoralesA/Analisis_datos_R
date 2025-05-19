@@ -1,0 +1,23 @@
+Variable,Tipo_Dato,Valores_Unicos,Valores_Faltantes,Ejemplo_Valores,Descripcion
+Id,integer,2240,0,"1826, 1, 10476",Identificador único del cliente
+Year_Birth,integer,59,0,"1970, 1961, 1958",Año de nacimiento del cliente.
+Education,character,5,0,"Graduation, PhD, 2n Cycle","Nivel educativo del cliente, contiene datos categóricos ordinales."
+Marital_Status,character,8,0,"Divorced, Single, Married","Estado civil del cliente, contiene datos categóricos nominales"
+Income,integer,1975,24,"84835, 57091, 67267",Ingresos anuales del hogar del cliente
+Kidhome,integer,3,0,"0, 1, 2","Número de niños en el hogar del cliente. Esta columna contiene datos numéricos discretos, representando la cantidad de niños que viven en el hogar del cliente."
+Teenhome,integer,3,0,"0, 1, 2","Número de adolescentes en el hogar del cliente. Esta columna contiene datos numéricos discretos, representando la cantidad de adolescentes que viven en el hogar del cliente."
+Dt_Customer,character,663,0,"6/16/2014, 6/15/2014, 5/13/2014",Fecha en la que el cliente se convirtió en cliente de la empresa
+Recency,integer,100,0,"0, 1, 2",Número de días desde la última compra del cliente
+MntWines,integer,776,0,"189, 464, 134",Cantidad gastada por el cliente en vinos en los últimos dos años.
+MntFruits,integer,158,0,"104, 5, 11",Cantidad gastada por el cliente en frutas en los últimos dos años.
+MntMeatProducts,integer,558,0,"379, 64, 59",Cantidad gastada por el cliente en productos cárnicos en los últimos dos años.
+MntFishProducts,integer,182,0,"111, 7, 15",Cantidad gastada por el cliente en productos de pescado en los últimos dos años.
+MntSweetProducts,integer,177,0,"189, 0, 2",Cantidad gastada por el cliente en productos dulces en los últimos dos años.
+MntGoldProds,integer,213,0,"218, 37, 30",Cantidad gastada por el cliente en productos de oro en los últimos dos años.
+NumDealsPurchases,integer,15,0,"1, 2, 3",Número de compras del cliente realizadas con descuento.
+NumWebPurchases,integer,15,0,"4, 7, 3",Número de compras del cliente realizadas a través del sitio web de la empresa.
+NumCatalogPurchases,integer,14,0,"4, 3, 2",Número de compras del cliente realizadas utilizando el catálogo de la empresa.
+NumStorePurchases,integer,14,0,"6, 7, 5",Número de compras del cliente realizadas directamente en las tiendas físicas de la empresa. 
+NumWebVisitsMonth,integer,16,0,"1, 5, 2",Número de veces que el cliente visitó el sitio web de la empresa en el último mes.
+Response,integer,2,0,"1, 0","Respuesta del cliente a la última campaña de marketing. Esta columna probablemente contiene datos numéricos binarios (0 o 1), donde 1 podría indicar que el cliente respondió positivamente a la campaña y 0 que no lo hizo."
+Complain,integer,2,0,"0, 1",Indica si el cliente presentó una queja en los últimos 2 años
